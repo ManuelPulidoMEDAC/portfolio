@@ -17,6 +17,9 @@ jobs:
         with:
           node-version: 20 # or your preferred Node.js version
 
+      - name: Install pnpm
+        run: npm install -g pnpm
+
       - name: Install dependencies
         run: pnpm install
 
